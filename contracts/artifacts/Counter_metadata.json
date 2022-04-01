@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.6.1+commit.e6f7d5a4"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementCount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dapp.sol": "Counter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/dapp.sol": {
+			"keccak256": "0xb9ebfc79a2d65fc062355c628cf14bd8437e131319748fdb96979dae3cb3d8f8",
+			"urls": [
+				"bzz-raw://e6b6502ddea01dde5537aa569826eec94d35bcbb62b154b6f325aea8f21340ba",
+				"dweb:/ipfs/QmazfgdGJDekLho2QuxjqHKoFM5FvM6bZVVWuWwMeuX7DJ"
+			]
+		}
+	},
+	"version": 1
+}
